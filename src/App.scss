@@ -1,0 +1,114 @@
+@import "./variables";
+// Import Pico
+@import "@picocss/pico/scss/pico";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.pologo {
+  position: static; 
+  width: 250px;
+  height: 250px; 
+  top: 0;
+  left: 0;
+  border: none;
+  padding: none; 
+  margin: none; 
+  object-fit: contain; 
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.orderFormCard {
+
+  background-color: #212529!important;
+  padding-block: 35px!important;
+  border: 5px solid #888888!important;
+  border-style:double!important;
+  
+}
+.read-the-docs {
+  color: #888888;
+}
+
+.vitereact {
+  color: #00c3f8aa!important;
+}
+
+.Divider {
+  color: #ffffff!important;
+  background-color: white!important;
+
+}
+
+label {
+  font:100;
+}
+
+div {
+  color: red !important;
+}
+
+.price-calculation {
+  color:#212529!important;
+}
+
+ li {
+  color: white!important;
+  font-weight: bold!important;
+  justify-content:center!important;
+}
+
+div.demo {
+  color:red!important;
+}
+
+.priceBoard {
+
+  background-color: #212529!important;
+  padding-block: 35px!important;
+  border: 5px solid #888888!important;
+  border-style:double!important;
+}
+.material-symbols-outlined {
+  font-size: 72px!important;
+  color: white!important;
+}
+
+.io-headings {
+  color:#f0710f!important;
+  font-weight: bold!important;
+}
