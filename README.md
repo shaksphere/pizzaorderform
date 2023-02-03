@@ -2,7 +2,11 @@
 
 # Pizzas Only Deal Calculator
 
-This was an application which I created during my Cert IV in Programming from TAFE, it was orignally built in HTML/JS/CSS, I have updated it using Vite and React. 
+This was an application which I created during my Cert IV in Programming from TAFE, it was orignally built in HTML/JS/CSS and it **used to look like this**: 
+
+![image](https://user-images.githubusercontent.com/110363828/216617574-c78e4dd2-92a4-4581-9ffc-6a35cc48c11a.png)
+
+### I have updated it using Vite and React (see details below). 
 
 ## View demo: 
 
